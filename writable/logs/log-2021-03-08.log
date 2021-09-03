@@ -1,0 +1,131 @@
+CRITICAL - 2021-03-08 12:05:26 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:08:51 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:10:59 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:14:39 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:16:28 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:16:52 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:17:59 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:20:27 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:20:39 --> Class 'App\Models\LogConfirmInterestModel' not found
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Telesales\TelesalesController->__construct()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 12:40:36 --> Cannot use App\Models\KesehatanNasabahModel as KesehatanNasabahModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:41:36 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:42:28 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:43:04 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:47:32 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:49:48 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:49:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:49:57 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:49:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:50:37 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:50:37 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:51:55 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:51:59 --> Cannot redeclare App\Controllers\Qa\QaController::detailOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 12:51:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 14:56:43 --> Cannot use App\Models\KesehatanNasabahModel as KesehatanNasabahModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 18:57:51 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#1 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(90): view('admin/spaj/prev...', Array)
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('5')
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 19:00:20 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#1 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(90): view('admin/spaj/prev...', Array)
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('5')
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

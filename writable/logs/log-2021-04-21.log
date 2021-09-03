@@ -1,0 +1,17 @@
+CRITICAL - 2021-04-21 10:19:20 --> syntax error, unexpected '<<' (T_SL)
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Reco...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Reco...')
+#3 C:\xampp\htdocs\isales\app\Controllers\Recording\RecordingController.php(13): spl_autoload_call('App\\Models\\Reco...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(886): App\Controllers\Recording\RecordingController->__construct()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-21 10:44:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales\app\Controllers\Recording\RecordingController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Recording\RecordingController->recordingByExtension()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recording\RecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

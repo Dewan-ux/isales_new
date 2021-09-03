@@ -1,0 +1,14 @@
+CRITICAL - 2021-04-20 15:21:39 --> Undefined variable: log
+#0 C:\xampp\htdocs\isales\app\Controllers\Telesales\TelesalesController.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 309, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->leadById()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-20 15:22:09 --> Undefined variable: log
+#0 C:\xampp\htdocs\isales\app\Controllers\Telesales\TelesalesController.php(395): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 395, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->historyCall()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

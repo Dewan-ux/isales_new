@@ -1,0 +1,233 @@
+CRITICAL - 2021-04-12 12:01:03 --> unlink(C:\xampp\htdocs\isales\writable\debugbar/debugbar_1618199728.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\isales\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1618203657, 20)
+#3 C:\xampp\htdocs\isales\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\isales\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\isales\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\isales\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 12:03:52 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 12:06:51 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 12:12:32 --> Call to undefined function null()
+#0 C:\xampp\htdocs\isales\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#2 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 12:13:15 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 12:14:19 --> Call to undefined function ()
+#0 C:\xampp\htdocs\isales\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#2 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 12:14:26 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 12:17:56 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 12:25:31 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 12:42:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminRecordingController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->playRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 12:42:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminRecordingController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->playRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 12:42:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminRecordingController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->playRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 13:06:41 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 13:10:55 --> Undefined index: 
+#0 C:\xampp\htdocs\isales\app\Views\admin\spaj\preview.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminSpajController.php(131): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('13')
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 14:02:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminRecordingController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->playRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 14:07:30 --> Undefined variable: record
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminRecordingController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->playRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 14:45:38 --> unlink(C:\xampp\htdocs\isales\writable\debugbar/debugbar_1618208763.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\isales\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1618213533, 20)
+#3 C:\xampp\htdocs\isales\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\isales\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\isales\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\isales\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 16:36:17 --> Undefined index: start_date
+#0 C:\xampp\htdocs\isales\app\Controllers\ServicesAdmin\ServicesAdminController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 331, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->allRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 16:36:32 --> Undefined index: end_date
+#0 C:\xampp\htdocs\isales\app\Controllers\ServicesAdmin\ServicesAdminController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 331, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->allRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 16:45:21 --> syntax error, unexpected '$url' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 16:45:39 --> syntax error, unexpected '$url' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 16:46:14 --> syntax error, unexpected '$url' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 16:50:56 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 16:52:25 --> Undefined index: start_date
+#0 C:\xampp\htdocs\isales\app\Controllers\ServicesAdmin\ServicesAdminController.php(331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 331, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->allRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 16:55:24 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 17:36:13 --> Undefined variable: record
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminRecordingController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->playRecording()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

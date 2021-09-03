@@ -1,0 +1,34 @@
+CRITICAL - 2021-03-05 10:44:30 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 11:21:56 --> Call to a member function getAll() on null
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Qa\QaController->viewSpaj()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 11:22:06 --> Call to a member function getAll() on null
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Qa\QaController->viewSpaj()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 11:29:29 --> Call to a member function getAll() on null
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Qa\QaController->viewSpaj()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 11:39:20 --> Call to a member function getAll() on null
+#0 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Qa\QaController->viewSpaj()
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

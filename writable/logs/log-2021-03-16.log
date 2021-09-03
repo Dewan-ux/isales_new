@@ -1,0 +1,85 @@
+CRITICAL - 2021-03-16 13:21:47 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 13:24:23 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 13:39:17 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 13:44:56 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 13:47:17 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 13:52:31 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 13:54:17 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 14:04:51 --> Undefined variable: message
+#0 /var/www/html/isales/app/Helpers/global_helper.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 387, Array)
+#1 /var/www/html/isales/app/Controllers/Auth/AuthController.php(213): createMessage('5')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Auth\AuthController->create()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-16 17:28:25 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 326, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->detailOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-16 17:29:13 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 326, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->detailOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-16 17:29:16 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 326, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->detailOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

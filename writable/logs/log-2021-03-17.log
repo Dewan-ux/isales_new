@@ -1,0 +1,16 @@
+CRITICAL - 2021-03-17 14:11:58 --> insertBatch() called with no data
+#0 /var/www/html/isales/system/Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 /var/www/html/isales/app/Models/VisitorModel.php(89): CodeIgniter\Model->insertBatch(Array)
+#2 /var/www/html/isales/app/Controllers/Campaign/CampaignController.php(421): App\Models\VisitorModel->addNewBatch(Array)
+#3 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->updloadCampaign()
+#4 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-17 14:11:58 --> Undefined index: error
+#0 /var/www/html/isales/app/Controllers/Admin/AdminCampaignController.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 182, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->uploadCampaign()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,25 @@
+CRITICAL - 2021-02-10 00:39:58 --> Use of undefined constant RECAPTCHA_SECRET_KEY - assumed 'RECAPTCHA_SECRET_KEY' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/isales/app/Controllers/LandingPage/LandingPageController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/i...', 12, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(886): App\Controllers\LandingPage\LandingPageController->__construct()
+#2 /var/www/html/isales/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 01:33:57 --> Invalid file: landingpage/cangkirkopicreate/success.php
+#0 /var/www/html/isales/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landingpage/can...')
+#1 /var/www/html/isales/system/Common.php(1087): CodeIgniter\View\View->render('landingpage/can...', Array, true)
+#2 /var/www/html/isales/app/Controllers/LandingPage/LandingPageController.php(122): view('landingpage/can...')
+#3 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\LandingPage\LandingPageController->add('cangkirkopicrea...')
+#4 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPage\LandingPageController))
+#5 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-10 01:36:34 --> Invalid file: landingpage/cangkirkopi/success.php
+#0 /var/www/html/isales/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landingpage/can...')
+#1 /var/www/html/isales/system/Common.php(1087): CodeIgniter\View\View->render('landingpage/can...', Array, true)
+#2 /var/www/html/isales/app/Controllers/LandingPage/LandingPageController.php(122): view('landingpage/can...')
+#3 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\LandingPage\LandingPageController->add('cangkirkopi')
+#4 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPage\LandingPageController))
+#5 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

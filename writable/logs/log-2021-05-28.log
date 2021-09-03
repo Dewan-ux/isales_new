@@ -1,0 +1,358 @@
+CRITICAL - 2021-05-28 17:03:51 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:08:12 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:09:42 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:10:05 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:10:52 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:12:50 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:13:01 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:14:45 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:15:08 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:17:44 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:18:49 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:19:09 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:19:44 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-28 17:19:55 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createProdukb')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createProdukb')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(69): CodeIgniter\Validation\Validation->run(Array, 'createProdukb')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-28 17:22:30 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:32:52 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:33:28 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:34:53 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:36:47 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:38:16 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:38:46 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:42:28 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:43:46 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:45:35 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 17:55:17 --> Call to undefined method App\Models\ProdukbModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\ProdukbModel.php(31): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(86): App\Models\ProdukbModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-28 18:29:57 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 18:34:38 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 18:43:12 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 19:18:42 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 326, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-28 20:53:27 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 20:53:53 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:06:59 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:07:16 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:07:30 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:07:44 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:08:27 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:14:12 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 21:14:40 --> Undefined index: id
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(521): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 521, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-28 21:19:40 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\preview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(137): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->previewCampaign('279')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-28 21:33:28 --> Unknown column 'isales_nasabah.t_campaign' in 'field list'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `user`.`...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LogShareCampaignModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(522): App\Models\LogShareCampaignModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 21:33:28 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->previewCampaign('279')
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-28 21:33:55 --> Unknown column 'isales_nasabah.t_campaign' in 'field list'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `user`.`...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LogShareCampaignModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(522): App\Models\LogShareCampaignModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 21:38:05 --> Unknown column 't_campaign' in 'field list'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `user`.`...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LogShareCampaignModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(522): App\Models\LogShareCampaignModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 21:38:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_campaign` USING (`left`)
+WHERE `isales_nasabah`.`t_log_share_campaign`.`id`' at line 4
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `user`.`...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LogShareCampaignModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(522): App\Models\LogShareCampaignModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 21:39:14 --> Unknown column 'isales_nasabah.t_campaign' in 'field list'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `user`.`...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LogShareCampaignModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(522): App\Models\LogShareCampaignModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-28 21:39:56 --> Unknown column 'isales_nasabah.t_campaign' in 'field list'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `user`.`...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LogShareCampaignModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(522): App\Models\LogShareCampaignModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->detailCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

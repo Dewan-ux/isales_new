@@ -1,0 +1,293 @@
+CRITICAL - 2021-03-15 10:26:57 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 10:33:25 --> Illegal string offset 'id_pertanyaan'
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(493): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/i...', 493, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 10:33:56 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 10:56:27 --> Illegal string offset 'id_pertanyaan'
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(493): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/i...', 493, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 11:20:38 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 11:24:00 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 11:31:57 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 11:48:17 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 11:49:06 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 11:53:30 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 12:19:08 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 12:21:46 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 12:22:31 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 12:27:49 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 12:36:04 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 12:37:45 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:26:52 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:28:02 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:33:56 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:34:51 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:37:02 --> Undefined index: remark
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(495): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 495, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:46:09 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:46:28 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:48:14 --> Array to string conversion
+#0 /var/www/html/isales/app/Views/admin/spaj/preview.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/i...', 35, Array)
+#1 /var/www/html/isales/system/View/View.php(246): include('/var/www/html/i...')
+#2 /var/www/html/isales/system/Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 /var/www/html/isales/app/Controllers/Admin/AdminSpajController.php(90): view('admin/spaj/prev...', Array)
+#4 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('19')
+#5 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-15 13:49:05 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:52:42 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 13:56:28 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 14:00:07 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 474, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 14:00:29 --> unlink(/var/www/html/isales/writable/debugbar/debugbar_1615790894.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/html/i...', 106, Array)
+#1 /var/www/html/isales/system/Debug/Toolbar/Collectors/History.php(106): unlink('/var/www/html/i...')
+#2 /var/www/html/isales/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1615791625, 20)
+#3 /var/www/html/isales/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/html/isales/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/isales/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /var/www/html/isales/system/CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-15 14:00:35 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 14:15:18 --> unlink(/var/www/html/isales/writable/debugbar/debugbar_1615792222.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/html/i...', 106, Array)
+#1 /var/www/html/isales/system/Debug/Toolbar/Collectors/History.php(106): unlink('/var/www/html/i...')
+#2 /var/www/html/isales/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1615792516, 20)
+#3 /var/www/html/isales/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/html/isales/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/isales/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /var/www/html/isales/system/CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-15 15:56:18 --> unlink(/var/www/html/isales/writable/debugbar/debugbar_1615798428.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/html/i...', 106, Array)
+#1 /var/www/html/isales/system/Debug/Toolbar/Collectors/History.php(106): unlink('/var/www/html/i...')
+#2 /var/www/html/isales/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1615798575, 20)
+#3 /var/www/html/isales/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/html/isales/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/isales/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /var/www/html/isales/system/CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-15 17:29:06 --> Undefined index: id
+#0 /var/www/html/isales/app/Controllers/Qa/QaController.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 497, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Qa\QaController->updateOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qa\QaController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 17:46:39 --> Invalid argument supplied for foreach()
+#0 /var/www/html/isales/app/Controllers/Admin/AdminCampaignController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/i...', 74, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 20:49:52 --> Table 'isales.t_recording' doesn't exist
+#0 /var/www/html/isales/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/isales/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/isales/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/isales/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/isales/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/isales/app/Models/RecordingModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(91): App\Models\RecordingModel->getAll(Array)
+#7 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->getRecording()
+#8 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#9 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-15 20:49:52 --> Table 'isales.t_recording' doesn't exist
+#0 /var/www/html/isales/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/isales/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/isales/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/isales/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/isales/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/isales/app/Models/RecordingModel.php(25): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(97): App\Models\RecordingModel->getAll(Array)
+#7 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->getRecording()
+#8 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#9 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-15 20:49:52 --> Undefined index: error
+#0 /var/www/html/isales/app/Controllers/Admin/AdminRecordingController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 27, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->index()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 20:49:52 --> Undefined index: error
+#0 /var/www/html/isales/app/Controllers/Admin/AdminRecordingController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 27, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Admin\AdminRecordingController->index()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminRecordingController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

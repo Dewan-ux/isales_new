@@ -1,0 +1,175 @@
+CRITICAL - 2021-04-25 14:09:55 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 14:11:29 --> Undefined index: id
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(64): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 14:12:15 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 14:41:02 --> Undefined index: campaign
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 14:52:55 --> Undefined variable: dashboard
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:07:32 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(61): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:15:22 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:26:01 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(68): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:27:56 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(70): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:31:13 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:31:29 --> Undefined variable: data
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 15:35:46 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 23:42:01 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 23:43:06 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#1 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-25 23:47:21 --> filesize(): stat failed for C:\xampp\htdocs\isales\writable\session/ci_sessionrf1b7635im6hbp26fe3gtm56nkncsggq
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 211, Array)
+#1 C:\xampp\htdocs\isales\system\Session\Handlers\FileHandler.php(211): filesize('C:\\xampp\\htdocs...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('rf1b7635im6hbp2...')
+#3 C:\xampp\htdocs\isales\system\Session\Session.php(1005): session_start()
+#4 C:\xampp\htdocs\isales\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\isales\system\Config\Services.php(771): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\isales\system\Config\BaseService.php(123): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\isales\system\Config\Services.php(752): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 C:\xampp\htdocs\isales\system\Common.php(894): CodeIgniter\Config\Services::session()
+#9 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminAuthController.php(70): session()
+#10 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->logout()
+#11 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#12 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-04-25 23:47:57 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(69): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 23:49:28 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(70): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-25 23:51:00 --> Undefined variable: dashboard
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(70): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

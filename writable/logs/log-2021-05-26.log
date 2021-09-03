@@ -1,0 +1,268 @@
+CRITICAL - 2021-05-26 00:55:02 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 00:56:51 --> Undefined index: campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 00:58:48 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\system\Helpers\form_helper.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(36): form_dropdown('id_campaign', Array, Array, ' class="form-co...')
+#2 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#4 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-26 00:59:28 --> Undefined index: campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 00:59:47 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:03:12 --> Undefined offset: 15
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:04:40 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:05:37 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:05:52 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:07:42 --> Undefined variable: spaj
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:08:07 --> Undefined index: nama
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:09:38 --> Undefined index: nama
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:17:36 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:21:30 --> Undefined variable: c
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:22:00 --> Undefined variable: ls
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:22:11 --> Undefined variable: ls
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:22:22 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:23:09 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:23:18 --> Undefined variable: data
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(103): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:26:14 --> Undefined index: campaigns
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-26 01:27:22 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:31:27 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:31:37 --> Undefined index: id_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:32:01 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:32:17 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:32:44 --> Array to string conversion
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-26 01:33:29 --> Undefined variable: log_upload_campaign
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(104): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

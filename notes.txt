@@ -1,0 +1,36 @@
+telp1
+telp2
+NPWP
+
+-ahli wris
+nama
+hubungan
+tempat lahir
+tgl lahir
+NIK
+telp1
+telp2
+status
+
+id_produk
+id_premi
+id_payment
+
+
+-----------------------
+log detail TSR
+foto
+nama
+time istirahat hari ini
+time shalat hari ini
+time toilet hari ini
+
+total leads hari ini
+total already call hari ini
+total call sukses
+total salah sambung
+total tidak di angkat
+total telepon kembali
+total no respond
+
+take up rate (leads/sukses)

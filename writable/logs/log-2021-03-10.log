@@ -1,0 +1,80 @@
+CRITICAL - 2021-03-10 10:41:39 --> Undefined variable: hp
+#0 /var/www/html/isales/app/Helpers/global_helper.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 249, Array)
+#1 /var/www/html/isales/app/Controllers/Campaign/CampaignController.php(403): formatPhoneInd('WINDAEASTARIAKU...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->updloadCampaign()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-10 11:08:03 --> Undefined index: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 563, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->startConfirmInterestCall()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 11:13:44 --> Undefined index: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 563, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->startConfirmInterestCall()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 11:42:56 --> Undefined variable: hp
+#0 /var/www/html/isales/app/Helpers/global_helper.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 249, Array)
+#1 /var/www/html/isales/app/Controllers/Campaign/CampaignController.php(403): formatPhoneInd('WINDAEASTARIAKU...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->updloadCampaign()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-10 13:20:30 --> unlink(/var/www/html/isales/writable/debugbar/debugbar_1615356445.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/html/i...', 106, Array)
+#1 /var/www/html/isales/system/Debug/Toolbar/Collectors/History.php(106): unlink('/var/www/html/i...')
+#2 /var/www/html/isales/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1615357228, 20)
+#3 /var/www/html/isales/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/html/isales/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/isales/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /var/www/html/isales/system/CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 17:28:48 --> Undefined variable: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 90, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->createOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 17:29:30 --> Undefined variable: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 101, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->createOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 18:06:15 --> Undefined variable: re
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 102, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->createOrder()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 18:06:53 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, integer given, called in /var/www/html/isales/system/Model.php on line 845
+#0 /var/www/html/isales/system/Model.php(845): CodeIgniter\Model->doProtectFields(16)
+#1 /var/www/html/isales/app/Models/DataNasabahModel.php(98): CodeIgniter\Model->update(Array, 16)
+#2 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(102): App\Models\DataNasabahModel->editAble('14', 16)
+#3 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->createOrder()
+#4 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#5 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-10 18:09:21 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, integer given, called in /var/www/html/isales/system/Model.php on line 845
+#0 /var/www/html/isales/system/Model.php(845): CodeIgniter\Model->doProtectFields(17)
+#1 /var/www/html/isales/app/Models/DataNasabahModel.php(98): CodeIgniter\Model->update(Array, 17)
+#2 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(102): App\Models\DataNasabahModel->editAble(14, 17)
+#3 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->createOrder()
+#4 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#5 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

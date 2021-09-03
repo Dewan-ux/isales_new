@@ -1,0 +1,28 @@
+CRITICAL - 2021-04-29 03:50:34 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\isales\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\isales\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\isales\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\isales\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-29 14:43:34 --> download_recording is not a validation rules group.
+#0 C:\xampp\htdocs\isales\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('download_record...')
+#1 C:\xampp\htdocs\isales\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('download_record...')
+#2 C:\xampp\htdocs\isales\app\Controllers\Services\ServicesController.php(102): CodeIgniter\Validation\Validation->run(Array, 'download_record...')
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Services\ServicesController->downloadRecording()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\ServicesController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-29 14:43:42 --> download_recording is not a validation rules group.
+#0 C:\xampp\htdocs\isales\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('download_record...')
+#1 C:\xampp\htdocs\isales\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('download_record...')
+#2 C:\xampp\htdocs\isales\app\Controllers\Services\ServicesController.php(102): CodeIgniter\Validation\Validation->run(Array, 'download_record...')
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Services\ServicesController->downloadRecording()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\ServicesController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

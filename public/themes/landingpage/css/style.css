@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(238,238,238 ,1);
+}
+
+.layer-1{
+    background-image: url('./Assets/Images/Banner-Online-Shop.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.tagline{
+  float: right;
+  object-fit: cover;
+  margin: 0;
+  width: 35%;
+  margin-top: 10vw;
+
+}
+
+.layer-2{
+  
+    position: absolute;
+    top:70vh;
+    margin-bottom: 10vh;
+}
+
+.voucer{
+    min-height: 800px;
+    border-radius: 13px;
+    
+
+}
+
+.voucer-row1{
+    color: rgba(97,97,97 ,1);
+    background-color:rgba(224,224,224 ,1);
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    position: relative;
+    filter: drop-shadow(10px 0px 5px rgba(224,224,224 ,0.1));
+}
+
+
+
+
+input[type=radio]{
+    padding: 0.5em;
+    -webkit-appearance: none;
+    border-radius: 1px;
+    margin-top: 2px;
+    outline-offset: 1px solid transparent;
+    content: '';
+    width: 3%;
+    height: 3%;
+    border: 1px solid orangered;
+    border-radius: 20%;
+    background: #fff;
+    margin-left: 5px;
+}
+
+input[type=radio]:checked {
+    display: inline-block;
+   background-color: orangered;
+   outline: 0px solid gray;
+   padding: 0.5em;
+  margin-left: 5px;
+}
+
+input[type=text] {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+outline: none;
+border:  0.2px solid orangered;
+margin-top: 10px;
+height: 40px;
+padding-left: 7px;
+}
+input[type=email] {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+outline: none;
+border:  0.2px solid orangered;
+}
+
+.g-recaptcha {
+    transform:scale(0.70);
+    transform-origin:0 0;
+}
+button{
+    background-color: orangered;
+    outline: none;
+    border:none;
+    height: 40px;
+    padding:0 15px;
+    border-radius: 5px;
+    color:white;
+}
+
+.radio-container{
+    display: flex;
+    
+}
+.gopay-logo{
+    width: 100%;
+}
+.voucer-row1-col1{
+    display: flex;
+    justify-content: center;
+}
+.voucer-row1-col2{
+    font-size: calc(40px + (50 - 40) * ((100vw - 4900px) / (1600 - 300)));
+
+}
+.voucer-row2{
+   color: rgba(97,97,97 ,1);
+    font-size: calc(40px + (50 - 40) * ((100vw - 4900px) / (1600 - 300)));
+}
+@media only screen and (max-width: 1200px) {
+    .voucer-row1-col2{
+        font-size: calc(40px + (50 - 40) * ((100vw - 4100px) / (1600 - 300)));
+    }
+    .voucer-row2{
+        font-size: calc(40px + (50 - 40) * ((100vw - 4100px) / (1600 - 300)));
+    }
+   
+    .gopay-logo{
+        padding-left: 10px;
+        width: 100%;
+        margin: 0 25%;
+        object-fit: contain;
+    }
+
+    .voucer{
+        background-color:rgba(224,224,224 ,0.9.5)
+        
+    
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .tagline{
+        float: right;
+        object-fit: cover;
+        margin: 0;
+        width: calc(27vw + 30vh + 10vmin);
+        margin-top: calc(4vw + 10vh + 2vmin);
+      
+      }
+      .gopay-logo{
+        padding-top: 10px;
+        width: 30%;
+        margin: 0 25%;
+        object-fit: contain;
+    }
+   
+      .layer-2{
+        position: absolute;
+        top:calc(27vw + 30vh + 10vmin);
+        margin-bottom: 10vh;
+    }
+    .radio-container{
+        width: 100%;
+     
+    }
+  
+  }

@@ -1,0 +1,151 @@
+CRITICAL - 2021-06-11 15:16:34 --> unlink(C:\xampp\htdocs\isales-new\writable\debugbar/debugbar_1623383226.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\isales-new\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1623399391, 20)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\isales-new\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\isales-new\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-11 15:17:22 --> Undefined index: 
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\preview.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(138): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('21')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 15:24:48 --> Undefined index: 
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\preview.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(138): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('21')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 15:25:46 --> Undefined index: 
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\preview.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(138): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('21')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 15:51:43 --> Undefined index: 
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\preview.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prev...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(138): view('admin/spaj/prev...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->preview('21')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:08:17 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(206): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('19')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:08:52 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(209): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('19')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:09:15 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(209): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:10:09 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(209): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:11:42 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(209): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:17:05 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(210): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:17:22 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(210): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:19:14 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(210): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:23:06 --> Undefined variable: jns_asuransi
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(210): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-11 16:27:17 --> Undefined offset: 0
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\spaj\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/spaj/prin...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(211): view('admin/spaj/prin...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->printPdf('22')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

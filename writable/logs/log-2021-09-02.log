@@ -1,0 +1,429 @@
+CRITICAL - 2021-09-02 10:10:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 10:18:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 10:23:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 10:29:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 11:57:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 11:57:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:02:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:05:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:05:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:06:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:07:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:10:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:16:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:43:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 13:50:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:10:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:26:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:30:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:35:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:36:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:37:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:39:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:47:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 15:57:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 18:53:13 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 18:53:13 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 18:53:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 18:53:29 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 18:53:29 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 18:53:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 18:54:02 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 18:54:02 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 18:54:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 18:54:21 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 18:56:02 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 18:56:02 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 18:56:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 18:56:52 --> Undefined property: App\Controllers\Spaj\SpajController::$DataNasabahModel
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 182, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 18:57:48 --> Undefined property: App\Controllers\Spaj\SpajController::$load
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:02:38 --> Undefined property: App\Controllers\Spaj\SpajController::$get
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:02:45 --> Undefined property: App\Controllers\Spaj\SpajController::$get
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:04:14 --> Undefined property: App\Controllers\Spaj\SpajController::$load
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:07:01 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::view()
+#0 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-02 19:17:08 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 19:17:09 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:17:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 19:17:16 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 19:17:16 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:17:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 19:18:51 --> Undefined property: App\Controllers\Spaj\SpajController::$load
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:26:22 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 19:26:23 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminSpajController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminSpajController->getData()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminSpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-02 19:26:23 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\isales-new\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales-new\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales-new\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales-new\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-02 19:28:31 --> Undefined property: App\Controllers\Spaj\SpajController::$load
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Spaj\SpajController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Spaj\SpajController->eksport()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spaj\SpajController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

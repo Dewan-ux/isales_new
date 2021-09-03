@@ -1,0 +1,121 @@
+CRITICAL - 2021-03-22 17:14:10 --> syntax error, unexpected '$recording' (T_VARIABLE)
+#0 /var/www/html/isales/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/i...')
+#1 /var/www/html/isales/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/isales/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/isales/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-22 17:14:56 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/isales/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/i...')
+#1 /var/www/html/isales/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/isales/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/isales/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-22 17:15:33 --> syntax error, unexpected end of file
+#0 /var/www/html/isales/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/i...')
+#1 /var/www/html/isales/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/isales/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/isales/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-22 17:16:01 --> Undefined variable: dir
+#0 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-22 17:16:58 --> Too few arguments to function App\Controllers\ServicesAdmin\ServicesAdminController::listRecording(), 0 passed in /var/www/html/isales/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#1 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#2 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 17:37:46 --> Too few arguments to function App\Controllers\ServicesAdmin\ServicesAdminController::listRecording(), 0 passed in /var/www/html/isales/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#1 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#2 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 17:37:50 --> Too few arguments to function App\Controllers\ServicesAdmin\ServicesAdminController::listRecording(), 0 passed in /var/www/html/isales/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#1 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#2 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 17:38:11 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/isales/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/i...')
+#1 /var/www/html/isales/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/isales/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/isales/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-22 17:42:05 --> scandir(/tmp/isales/writable/download): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/tmp/is...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('/tmp/isales/wri...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 17:46:47 --> scandir(/path/isales/writable/download): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/path/i...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('/path/isales/wr...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 17:49:31 --> scandir(182.23.42.200:8002/isales/writable/download/20210301/): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(182.23....', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('182.23.42.200:8...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 17:50:32 --> scandir(isales/writable/download/20210301/): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(isales/...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('isales/writable...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 17:51:16 --> scandir(isales/writable/download/): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(isales/...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('isales/writable...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 17:56:38 --> scandir(isales/writable/): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(isales/...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('isales/writable...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 17:58:53 --> scandir(isales/writable/download): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(isales/...', '/var/www/html/i...', 225, Array)
+#1 /var/www/html/isales/app/Controllers/ServicesAdmin/ServicesAdminController.php(225): scandir('isales/writable...')
+#2 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\ServicesAdmin\ServicesAdminController->listRecording()
+#3 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServicesAdmin\ServicesAdminController))
+#4 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

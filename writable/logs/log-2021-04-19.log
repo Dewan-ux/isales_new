@@ -1,0 +1,217 @@
+CRITICAL - 2021-04-19 12:49:20 --> syntax error, unexpected '<<' (T_SL), expecting ')'
+#0 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-19 13:06:56 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:06:56 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:06:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:06:59 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:06:59 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:07:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:17:17 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:17:17 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:17:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:22:51 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:22:51 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:22:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:31:42 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:31:42 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:31:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:32:31 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:32:31 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:32:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:33:54 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:38:00 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 13:38:00 --> Undefined index: error
+#0 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminCampaignController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->doShareCampaign()
+#2 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 13:38:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\isales\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\isales\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\isales\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\isales\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-19 13:50:46 --> insertBatch() called with no data
+#0 C:\xampp\htdocs\isales\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#1 C:\xampp\htdocs\isales\app\Models\DataNasabahModel.php(93): CodeIgniter\Model->insertBatch(Array)
+#2 C:\xampp\htdocs\isales\app\Controllers\Campaign\CampaignController.php(291): App\Models\DataNasabahModel->addNewBatch(Array)
+#3 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-04-24 14:31:11 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(50): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-24 14:33:25 --> Undefined variable: campaign
+#0 C:\xampp\htdocs\isales\app\Views\admin\performance\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\isales\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales\system\Common.php(1087): CodeIgniter\View\View->render('admin/performan...', Array, true)
+#3 C:\xampp\htdocs\isales\app\Controllers\Admin\AdminPerformanceController.php(50): view('admin/performan...', Array)
+#4 C:\xampp\htdocs\isales\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPerformanceController->index()
+#5 C:\xampp\htdocs\isales\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPerformanceController))
+#6 C:\xampp\htdocs\isales\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

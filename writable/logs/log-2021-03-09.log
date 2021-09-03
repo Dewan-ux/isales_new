@@ -1,0 +1,39 @@
+CRITICAL - 2021-03-09 14:34:53 --> unlink(/var/www/html/isales/writable/debugbar/debugbar_1615257384.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/html/i...', 106, Array)
+#1 /var/www/html/isales/system/Debug/Toolbar/Collectors/History.php(106): unlink('/var/www/html/i...')
+#2 /var/www/html/isales/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1615275291, 20)
+#3 /var/www/html/isales/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/html/isales/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/isales/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /var/www/html/isales/system/CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-09 19:04:21 --> Undefined index: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 563, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->startConfirmInterestCall()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-09 19:04:44 --> Undefined index: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 563, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->startConfirmInterestCall()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-09 19:06:03 --> Undefined index: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 563, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->startConfirmInterestCall()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-09 19:06:50 --> Undefined index: id_spaj
+#0 /var/www/html/isales/app/Controllers/Telesales/TelesalesController.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/i...', 563, Array)
+#1 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Telesales\TelesalesController->startConfirmInterestCall()
+#2 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Telesales\TelesalesController))
+#3 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

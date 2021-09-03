@@ -1,0 +1,26 @@
+CRITICAL - 2021-03-03 18:37:28 --> Table 'isales.t_pekerjaan' doesn't exist
+#0 /var/www/html/isales/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `t_peker...')
+#1 /var/www/html/isales/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_peker...')
+#2 /var/www/html/isales/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_peker...')
+#3 /var/www/html/isales/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_peker...', Array, false)
+#4 /var/www/html/isales/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/isales/app/Models/PekerjaanModel.php(21): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/html/isales/app/Controllers/Pekerjaan/PekerjaanController.php(45): App\Models\PekerjaanModel->getAll()
+#7 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Pekerjaan\PekerjaanController->pekerjaanList()
+#8 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan\PekerjaanController))
+#9 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-03 18:40:03 --> Table 'isales.t_pekerjaan' doesn't exist
+#0 /var/www/html/isales/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `t_peker...')
+#1 /var/www/html/isales/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_peker...')
+#2 /var/www/html/isales/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_peker...')
+#3 /var/www/html/isales/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_peker...', Array, false)
+#4 /var/www/html/isales/system/Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/isales/app/Models/PekerjaanModel.php(21): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/html/isales/app/Controllers/Pekerjaan/PekerjaanController.php(45): App\Models\PekerjaanModel->getAll()
+#7 /var/www/html/isales/system/CodeIgniter.php(914): App\Controllers\Pekerjaan\PekerjaanController->pekerjaanList()
+#8 /var/www/html/isales/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan\PekerjaanController))
+#9 /var/www/html/isales/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/isales/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

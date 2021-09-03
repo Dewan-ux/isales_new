@@ -1,0 +1,330 @@
+CRITICAL - 2021-05-30 00:01:58 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\premi\tambah.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/premi/tam...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiController.php(110): view('admin/premi/tam...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiController->add()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 00:02:50 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\premi\tambah.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/premi/tam...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiController.php(110): view('admin/premi/tam...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiController->add()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 00:08:22 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\premi\tambah.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/premi/tam...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiController.php(110): view('admin/premi/tam...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiController->add()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 00:12:35 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPremis')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPremis')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPremis')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:13:26 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPremis')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPremis')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPremis')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:13:56 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPrem')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPrem')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPrem')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:14:50 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPrem')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPrem')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPrem')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:17:35 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPrem')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPrem')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPrem')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:19:23 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPaCar')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPaCar')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPaCar')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:19:42 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPaCar')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPaCar')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPaCar')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:21:01 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPaCar')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPaCar')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPaCar')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:21:01 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiPaCarController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiPaCarController->add()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiPaCarController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:21:09 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPaCar')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPaCar')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPaCar')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:24:49 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('createPaCar')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('createPaCar')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'createPaCar')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:26:13 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:26:28 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:28:30 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:36:00 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:39:19 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:46:17 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:46:34 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambah')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambah')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambah')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 00:47:05 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambah')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambah')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambah')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 11:26:05 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambah')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambah')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambah')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 11:44:25 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambah')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambah')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambah')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 11:45:36 --> {0} is not a validation rules group.
+#0 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('tambahPremi')
+#1 C:\xampp\htdocs\isales-new\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('tambahPremi')
+#2 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(70): CodeIgniter\Validation\Validation->run(Array, 'tambahPremi')
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->tambah()
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 13:10:08 --> Call to undefined method App\Models\PremibModel::insertID
+#0 C:\xampp\htdocs\isales-new\app\Models\PremibModel.php(44): CodeIgniter\Model->__call('insertID', Array)
+#1 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(89): App\Models\PremibModel->addNew(Array)
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-30 13:24:47 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\isales-new\app\Models\PremibModel.php(43): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(89): App\Models\PremibModel->addNew(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-30 13:25:08 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\isales-new\app\Models\PremibModel.php(43): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(89): App\Models\PremibModel->addNew(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-30 13:26:26 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\isales-new\app\Models\PremibModel.php(43): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(89): App\Models\PremibModel->addNew(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-30 13:26:55 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\isales-new\app\Models\PremibModel.php(43): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Premi\PremiPaCarController.php(89): App\Models\PremibModel->addNew(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Premi\PremiPaCarController->create()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Premi\PremiPaCarController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-30 15:05:29 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\premi\more.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/premi/mor...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiPaCarController.php(69): view('admin/premi/mor...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiPaCarController->create()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiPaCarController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 15:11:11 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\premi\ubah.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/premi/uba...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiPaCarController.php(151): view('admin/premi/uba...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiPaCarController->edit('2')
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiPaCarController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 15:11:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Produk\ProdukPaCarController.php(364): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 364, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Produk\ProdukPaCarController->produk()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk\ProdukPaCarController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:11:51 --> Undefined index: error
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiPaCarController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiPaCarController->edit('2')
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiPaCarController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:31:23 --> Undefined variable: produk
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\premi\edit.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/premi/edi...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminPremiController.php(202): view('admin/premi/edi...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPremiController->update()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPremiController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

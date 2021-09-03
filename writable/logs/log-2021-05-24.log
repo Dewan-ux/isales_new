@@ -1,0 +1,216 @@
+CRITICAL - 2021-05-24 10:43:49 --> Unknown database 'isales'
+#0 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#3 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-24 10:43:49 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 10:55:51 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 10:55:51 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 10:59:19 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 10:59:19 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:01:08 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 11:01:08 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:15:31 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 11:15:31 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:22:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:23:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:23:28 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 11:23:28 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:30:31 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 11:30:31 --> Undefined index: status
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminAuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminAuthController->login()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminAuthController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 11:32:41 --> Table 'isales.t_user' doesn't exist
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `t_login...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_login...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_login...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `t_login...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\isales-new\app\Models\LoginModel.php(191): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Auth\AuthController.php(831): App\Models\LoginModel->getAll(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Auth\AuthController->doLogin()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 12:34:17 --> Undefined index: log_upload_campaign
+#0 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#2 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#3 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-24 12:36:47 --> Undefined offset: 14
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(80): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-24 14:02:11 --> Undefined offset: 3
+#0 C:\xampp\htdocs\isales-new\app\Views\admin\campaign\log_share.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\isales-new\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\isales-new\system\Common.php(1087): CodeIgniter\View\View->render('admin/campaign/...', Array, true)
+#3 C:\xampp\htdocs\isales-new\app\Controllers\Admin\AdminCampaignController.php(80): view('admin/campaign/...', Array)
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Admin\AdminCampaignController->shareCampaign()
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminCampaignController))
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-24 15:02:59 --> Unknown column 'id_campaign' in 'field list'
+#0 C:\xampp\htdocs\isales-new\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\isales-new\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\isales-new\system\Database\BaseBuilder.php(2076): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\isales-new\system\Model.php(776): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100, false)
+#5 C:\xampp\htdocs\isales-new\app\Models\DataNasabahModel.php(92): CodeIgniter\Model->insertBatch(Array)
+#6 C:\xampp\htdocs\isales-new\app\Controllers\Campaign\CampaignController.php(302): App\Models\DataNasabahModel->addNewBatch(Array)
+#7 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(914): App\Controllers\Campaign\CampaignController->shareCampaign()
+#8 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Campaign\CampaignController))
+#9 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-24 15:13:25 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\isales-new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\isales-new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\isales-new\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
