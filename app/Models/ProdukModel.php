@@ -42,4 +42,5 @@ class ProdukModel extends Model
 	{
 	    return $this->delete(['id' =>  $id]);
 	}
+	
 }

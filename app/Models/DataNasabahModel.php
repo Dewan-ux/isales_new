@@ -139,4 +139,27 @@ class DataNasabahModel extends Model
 		$this->update();
 		return $this->db->affectedRows();
 	}
+	public function ExportData1(){
+		 $this->select('t_spaj.id
+						, t_spaj.no_proposal
+						, t_spaj.jns_asuransi
+						, t_spaj.nama
+						, t_spaj.telp1
+						, t_premi.nominal
+						, t_produk.nama_produk
+						, t_user.nama as tsr_nama
+						, t_spaj.created_at as tanggal
+						, t_user.nama as nama_sales
+						, t_spaj.created_at
+						, t_spaj.checked');
+				$this->join('t_spaj',' t_spaj.id_data_nasabah = t_data_nasabah.id');
+				$this->join('t_login',' t_spaj.created_by = t_login.id');
+				$this->join('t_user ',' t_login.id = t_user.id_login');
+				$this->join('t_premi ',' t_spaj.id_premi = t_premi.id');
+				$this->join('t_produk ',' t_premi.id_produk = t_produk.id');
+				$this->orderBy('t_spaj.created_at','DESC');
+				
+		$query = $this->get();
+		return $query->getResultArray();
+	}
 }

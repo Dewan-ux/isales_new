@@ -181,13 +181,8 @@ class SpajController extends BaseController
     }
 	
 	public function eksport(){
-        $spaj 		= $this->spaj->findAll();
-		$produk 	= $this->produk->findAll();
-		$premi 		= $this->premi->findAll();
-		$nasabah 	= $this->d_nasabah->findAll();
-		$user 		= $this->user->findAll();
-
-        $spreadsheet = new Spreadsheet();
+        $spaj 			= $this->d_nasabah->ExportData1();
+        $spreadsheet	= new Spreadsheet();
 		
         $spreadsheet->setActiveSheetIndex(0)
 			->setCellValue('A1', 'No')
@@ -199,68 +194,33 @@ class SpajController extends BaseController
 			->setCellValue('G1', 'Premi')
 			->setCellValue('H1', 'Telesales')
             ->setCellValue('I1', 'Tanggal');
-
+			
         $column 		= 2;
 		$asuransi		= '';
-		$namaproduk		= '';
-		$namapremi		= '';
-		$namasales		= '';
-        foreach ($spaj as $dataspaj) {
+		$sensorNoHp		= '';
+        foreach($spaj as $dataspaj)
+		{
 			if ($dataspaj['jns_asuransi'] == 0){
 				$asuransi = 'Life Protection 20';
 			}
 			else{
-				
 				$asuransi = 'Perlindungan Kecelakaan';
 			}
 			
-			foreach ($produk as $dataproduk) {
-				if ($dataproduk['id'] == $dataspaj['id_produk']){
-					$namaproduk = $dataproduk['nama_produk'];
-				}
-			}
-			
-			foreach ($premi as $datapremi) {
-				if ($datapremi['id'] == $dataspaj['id_premi']){
-					$namapremi = $datapremi['nominal'];
-				}
-			}
-			
-			foreach ($user as $datauser){
-				if ($datauser['id_login'] == $dataspaj['created_by']){
-					$namasales = $datauser['nama'];
-				}
-			}
-			
+			$sensorNoHp = substr($dataspaj['telp1'], 0, 3).' XXX XXX XXX';
 			$spreadsheet->setActiveSheetIndex(0)
 				->setCellValue('A' . $column, $dataspaj['id'])
 				->setCellValue('B' . $column, $dataspaj['no_proposal'])
 				->setCellValue('C' . $column, $asuransi)
 				->setCellValue('D' . $column, $dataspaj['nama'])
-				->setCellValue('E' . $column, $dataspaj['telp1'])
-				->setCellValue('F' . $column, $namaproduk)
-				->setCellValue('G' . $column, $namapremi)
-				->setCellValue('H' . $column, $namasales)
+				->setCellValue('E' . $column, $sensorNoHp)
+				->setCellValue('F' . $column, $dataspaj['nama_produk'])
+				->setCellValue('G' . $column, $dataspaj['nominal'])
+				->setCellValue('H' . $column, $dataspaj['nama_sales'])
 				->setCellValue('I' . $column, $dataspaj['created_at']);
-				
 			$column++;
         }
-		/*
-		$column1 = 2;
-		foreach ($produk as $dataproduk) {
-            $spreadsheet->setActiveSheetIndex(0)
-				->setCellValue('F' . $column1, $dataproduk['nama_produk']);
-            $column1++;
-        }
 		
-		$column2 = 2;
-		foreach ($premi as $datapremi) {
-            $spreadsheet->setActiveSheetIndex(0)
-				->setCellValue('G' . $column2, $datapremi['nominal']);
-            $column2++;
-        }
-		*/
-
         $writer = new Xlsx($spreadsheet);
         $filename = date('Y-m-d-His'). '-Data-spaj';
 

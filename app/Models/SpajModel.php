@@ -376,4 +376,47 @@ class SpajModel extends Model
     {
         return $this->update($id, $data);
     }
+		
+	public function ExportData()
+	{
+		/*
+		$this->select('t_spaj.id
+						, t_spaj.no_proposal
+						, t_spaj.jns_asuransi
+						, t_spaj.nama
+						, t_spaj.telp1
+						, t_produk.id as id_produk
+						, t_produk.nama_produk
+						, t_premi.id as id_premi
+						, t_premi.nominal
+						, t_premi.satuan
+						, t_user.id as id_user
+						, t_user.nama as nama_sales
+						, t_spaj.created_at');
+		$this->join('t_data_nasabah', 't_spaj.id_data_nasabah = t_data_nasabah.id', 'left');
+		$this->join('t_produk', 't_spaj.id_produk = t_produk.id', 'left');
+		$this->join('t_premi', 't_spaj.id_premi = t_premi.id', 'left');		
+		$this->join('t_user', 't_spaj.created_by = t_user.id_login', 'left');
+		$this->orderBy('t_spaj.id', 'ASC');
+		*/
+		$this->select('t_spaj.id
+						, t_spaj.no_proposal
+						, t_spaj.jns_asuransi
+						, t_spaj.nama
+						, t_spaj.telp1
+						, t_premi.nominal
+						, t_produk.nama_produk
+						, t_user.nama as tsr_nama
+						, t_spaj.created_at as tanggal
+						, t_spaj.checked');
+				$this->join('t_spaj',' t_spaj.id_data_nasabah = t_data_nasabah.id');
+				$this->join('t_login',' t_spaj.created_by = t_login.id');
+				$this->join('t_user ',' t_login.id = t_user.id_login');
+				$this->join('t_premi ',' t_spaj.id_premi = t_premi.id');
+				$this->join('t_produk ',' t_premi.id_produk = t_produk.id');
+				$this->orderBy('t_spaj.created_at','DESC');
+				
+		$query = $this->get();
+		return $query->getResultArray();
+	}
 }
